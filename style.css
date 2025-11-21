@@ -11,3 +11,79 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+
+/* General styles*/
+
+.link {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #353535;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.link:hover {
+  opacity: 0.7;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 126px;
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 14px;
+  background: #54bd95;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:active {
+  filter: brightness(0.9);
+}
+
+/*Header styles*/
+
+.header {
+  padding: 22px 26px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #f9f8fe;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  width: 540px;
+}
+
+.nav__link--active {
+  color: #54bd95;
+}
+
+.header__actions {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.header__search-link {
+  font-family: 'Inter', sans-serif;
+}
+
+.header__btn {
+  margin-left: 32px;
+}
