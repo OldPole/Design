@@ -10,29 +10,57 @@
   <body>
     <header class="header">
       <nav class="header__nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="/" class="link nav__link--active">Home</a>
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="/" class="link header__nav-link--active">Home</a>
           </li>
-          <li class="nav__item">
+          <li class="header__nav-item">
             <a href="#" class="link">Products</a>
           </li>
-          <li class="nav__item">
+          <li class="header__nav-item">
             <a href="#" class="link">Specifications</a>
           </li>
-          <li class="nav__item">
+          <li class="header__nav-item">
             <a href="#" class="link">Statistics</a>
           </li>
-          <li class="nav__item">
+          <li class="header__nav-item">
             <a href="#" class="link">Contact us</a>
           </li>
         </ul>
       </nav>
 
-      <div class="header__actions">
-        <a class="link header__search-link">Search</a>
-        <button class="btn header__btn">Sign up</button>
+      <div class="header__btns-wrapper">
+        <a class="link header__search">Search</a>
+        <a href="#" class="btn header__signup">Sign up</a>
       </div>
     </header>
+
+    <main class="main">
+      <section class="welcome">
+        <div class="container">
+          <div class="welcome__desc">
+            <h1 class="welcome__title">Design with us</h1>
+            <p class="welcome__text">
+              Welcome to our design interior site, where innovation meets elegance to transform your
+              space into a masterpiece of style and functionality. Dive into a world where every
+              corner whispers sophistication and every detail speaks volumes about your unique
+              taste.
+            </p>
+            <a href="#" class="btn welcome_btn">Create request</a>
+          </div>
+
+          <div class="welcome__composition">
+            <img class="welcome__decor--cactus" src="/assets/welcome/cactus.svg" alt="cactus" />
+            <img class="welcome__decor--cup" src="/assets/welcome/cup.svg" alt="cup" />
+            <img class="welcome__decor--graph" src="/assets/welcome/graph.svg" alt="graph" />
+            <img
+              class="welcome__decor--lightning"
+              src="/assets/welcome/lightning.svg"
+              alt="lightning" />
+            <img class="welcome__decor--rocket" src="/assets/welcome/rocket.svg" alt="rocket" />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
