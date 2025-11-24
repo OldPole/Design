@@ -399,6 +399,12 @@ h2 {
   grid-area: 3 / 2 / 5 / 3;
 }
 
+.products__link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 .products__img {
   margin-bottom: 16px;
   box-shadow: 0px 0px 25px 0px #2f396726;
@@ -414,4 +420,60 @@ h2 {
   font-weight: 400;
   font-size: 16px;
   color: #8b8b8b;
+}
+
+/* Specifications section */
+
+.specifications {
+  padding: 80px 0;
+}
+
+.specifications__title {
+  margin-bottom: 40px;
+}
+
+.specifications__accordion {
+  list-style: none;
+}
+
+.specifications__accordion-item {
+  border-top: 1px solid #353535;
+}
+
+.specifications__accordion-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+  cursor: pointer;
+}
+
+.specifications__accordion-info {
+  display: flex;
+  align-items: center;
+}
+
+.specifications__accordion-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 40px;
+}
+
+.specifications__accordion-category,
+.specifications__accordion-button {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.specifications__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out;
+}
+
+.specifications__accordion-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  color: #555;
 }
