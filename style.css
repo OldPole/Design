@@ -375,27 +375,27 @@ h2 {
   grid-row-gap: 40px;
 }
 
-.products__analytics {
+.products__card:nth-child(1) {
   grid-area: 1 / 1 / 3 / 2;
 }
 
-.products__print {
+.products__card:nth-child(2) {
   grid-area: 1 / 2 / 2 / 3;
 }
 
-.products__studio {
+.products__card:nth-child(3) {
   grid-area: 2 / 2 / 3 / 3;
 }
 
-.products__marketing {
+.products__card:nth-child(4) {
   grid-area: 3 / 1 / 4 / 2;
 }
 
-.products__digital {
+.products__card:nth-child(5) {
   grid-area: 4 / 1 / 5 / 2;
 }
 
-.products__event {
+.products__card:nth-child(6) {
   grid-area: 3 / 2 / 5 / 3;
 }
 
