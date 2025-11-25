@@ -152,7 +152,7 @@ h2 {
   margin-bottom: 40px;
 }
 
-.welcome_btn {
+.welcome__btn {
   text-decoration: none;
   padding: 16px 24px;
 }
@@ -247,8 +247,9 @@ h2 {
 }
 
 .portfolio__img {
-  max-width: 543px;
-  height: 424px;
+  background-size: cover; /* или contain */
+  background-position: center;
+  background-repeat: no-repeat;
   border-radius: 6px;
 }
 
@@ -303,7 +304,6 @@ h2 {
 .partners__rating-score {
   font-weight: 500;
   font-size: 18px;
-  color: #191a15;
 }
 
 .partners__rating-desc {
@@ -476,4 +476,75 @@ h2 {
   line-height: 25px;
   margin-bottom: 20px;
   color: #555;
+}
+
+/* Team section */
+
+.team {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.team .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.team__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 40px;
+}
+
+.team__teammate-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 350px;
+  height: 220px;
+}
+
+.team__teammate-card:nth-child(1) {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.team__teammate-card:nth-child(2) {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.team__teammate-card:nth-child(3) {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.team__teammate-card:nth-child(4) {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.team__teammate-card:nth-child(5) {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.team__teammate-card:nth-child(6) {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.team__teammate-name {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.team__teammate-products {
+  font-weight: 400;
+  font-size: 16px;
+  color: #8b8b8b;
+}
+
+.team__link {
+  text-decoration: none;
+  padding: 16px 24px;
 }
