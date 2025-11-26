@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Poppins:wght@500;600&display=swap');
 
+/* Scrollbar styles */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #161c28;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #54bd95;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  cursor: default;
+  background: #459c7a;
+}
+
+::-webkit-scrollbar-corner {
+  background: #161c28;
+}
+
+/* General styles */
+
 *,
 ::before,
 ::after {
@@ -62,6 +88,8 @@ h2 {
   filter: brightness(0.9);
 }
 
+/* Header */
+
 .header {
   padding: 22px 26px;
   display: flex;
@@ -93,6 +121,8 @@ h2 {
   text-decoration: none;
   margin-left: 32px;
 }
+
+/* Welcome section */
 
 .welcome {
   padding: 110px 0;
@@ -198,6 +228,8 @@ h2 {
   left: 320px;
 }
 
+/* Portfolio section */
+
 .portfolio {
   padding: 120px 0;
   background-color: #ffffff;
@@ -240,6 +272,8 @@ h2 {
   background-repeat: no-repeat;
   border-radius: 6px;
 }
+
+/* Partners section */
 
 .partners {
   padding: 120px 0;
@@ -342,6 +376,8 @@ h2 {
   color: #979797;
 }
 
+/* Products section */
+
 .products {
   background-color: #ffffff;
   padding: 120px 0;
@@ -408,18 +444,7 @@ h2 {
   color: #8b8b8b;
 }
 
-@media screen and (max-width: 1350px) {
-  .products__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .portfolio__img,
-  .products__img {
-    width: 100%;
-  }
-}
+/* Specifications section */
 
 .specifications {
   padding: 80px 0;
@@ -475,6 +500,8 @@ h2 {
   color: #555;
 }
 
+/* Team section */
+
 .team {
   padding: 80px 0;
   background-color: #ffffff;
@@ -523,6 +550,8 @@ h2 {
   text-decoration: none;
   padding: 16px 24px;
 }
+
+/* Footer */
 
 .footer {
   background-color: #161c28;
