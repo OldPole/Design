@@ -1,0 +1,39 @@
+.header {
+  padding: 22px 26px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.header__nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 32px;
+  max-width: 540px;
+}
+
+.header__nav-link--active {
+  color: var(--color-primary);
+  pointer-events: none;
+}
+
+.header__btns-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header__signup {
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 32px;
+  padding: 10px 24px;
+}

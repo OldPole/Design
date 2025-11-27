@@ -1,0 +1,57 @@
+.team {
+  padding: var(--section-padding-md) 0;
+  background-color: var(--color-white);
+}
+
+.team .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.team__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: center;
+}
+
+.team__teammate-card {
+  width: 100%;
+  height: 220px;
+  margin: 0 auto;
+}
+
+.team__link {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  color: inherit;
+  transition: all var(--transition);
+}
+
+.team__link:hover {
+  color: var(--color-primary);
+  scale: var(--scale-hover);
+}
+
+.team__teammate-name {
+  font-weight: var(--font-weight-bold);
+  font-size: 16px;
+  font-family: var(--font-family-primary);
+}
+
+.team__teammate-products {
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-regular);
+  font-size: 16px;
+  color: var(--color-gray-light);
+}
+
+.team__btn-link {
+  padding: 16px 24px;
+}

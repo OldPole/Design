@@ -1,0 +1,102 @@
+.welcome {
+  padding: var(--section-padding-lg) 0;
+}
+
+.welcome .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.welcome__desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 460px;
+}
+
+.welcome__title {
+  font-weight: var(--font-weight-black);
+  font-size: 70px;
+  text-transform: uppercase;
+  color: var(--color-dark);
+  margin-bottom: 16px;
+}
+
+.welcome__title::before {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: -207px;
+  top: 34px;
+  border-radius: 100%;
+  background: var(--color-primary);
+  z-index: -5;
+  filter: var(--blur-strong);
+}
+
+.welcome__text {
+  font-weight: var(--font-weight-medium);
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--color-black);
+  margin-bottom: 40px;
+}
+
+.welcome__btn {
+  text-decoration: none;
+  padding: 16px 24px;
+}
+
+.welcome__composition {
+  position: relative;
+  width: 400px;
+  height: 520px;
+  border-radius: 10px;
+  background-image: url('/assets/welcome/lamp.jpg');
+}
+
+.welcome__composition::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  background: var(--color-primary);
+  filter: var(--blur-strong);
+  z-index: -1;
+}
+
+.welcome__composition-cactus {
+  position: absolute;
+  top: 230px;
+  left: 345px;
+}
+
+.welcome__composition-cup {
+  position: absolute;
+  top: 470px;
+  left: 80px;
+}
+
+.welcome__composition-graph {
+  position: absolute;
+  top: 90px;
+  left: 375px;
+}
+
+.welcome__composition-lightning {
+  position: absolute;
+  top: 150px;
+  left: -50px;
+}
+
+.welcome__composition-rocket {
+  position: absolute;
+  top: 490px;
+  left: 320px;
+}

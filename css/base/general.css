@@ -1,0 +1,86 @@
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  cursor: default;
+  background: var(--color-primary-hover);
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--color-dark);
+}
+
+/* General styles */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-primary);
+  background-color: var(--color-bg);
+}
+
+h2 {
+  font-weight: var(--font-weight-semibold);
+  font-size: 48px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.link {
+  font-family: var(--font-family-secondary);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-gray);
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.link:hover {
+  color: var(--color-primary);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 126px;
+  color: var(--color-white);
+  font-family: var(--font-family-secondary);
+  font-weight: var(--font-weight-semibold);
+  font-size: 16px;
+  background: var(--color-primary);
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:active {
+  filter: brightness(0.9);
+}
