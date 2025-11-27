@@ -134,6 +134,7 @@
 .footer__location {
   width: 100%;
   margin: 140px 0;
+  border-radius: 6px;
 }
 
 .footer__socials {
