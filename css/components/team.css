@@ -55,3 +55,9 @@
 .team__btn-link {
   padding: 16px 24px;
 }
+
+@media screen and (max-width: 580px) {
+  .team {
+    padding: var(--section-padding-sm) 0;
+  }
+}

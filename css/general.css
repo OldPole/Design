@@ -60,3 +60,9 @@ a {
 .btn:active {
   filter: brightness(0.9);
 }
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+}

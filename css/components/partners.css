@@ -28,6 +28,7 @@
 
 .partners__rating-wrapper {
   display: flex;
+  flex-wrap: wrap;
   gap: 80px;
 }
 
@@ -97,4 +98,31 @@
   font-size: 18px;
   line-height: 30px;
   color: var(--color-gray-light);
+}
+
+@media screen and (max-width: 1350px) {
+  .partners .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .partners__rating-wrapper {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .partners {
+    padding: var(--section-padding-sm) 0;
+  }
+
+  .partners__content {
+    gap: 40px;
+  }
+
+  .partners__rating-wrapper {
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
 }

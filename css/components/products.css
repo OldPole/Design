@@ -75,3 +75,9 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 580px) {
+  .products {
+    padding: var(--section-padding-sm) 0;
+  }
+}

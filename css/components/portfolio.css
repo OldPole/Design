@@ -40,4 +40,30 @@
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 6px;
+  max-width: 540px;
+}
+
+@media screen and (max-width: 1350px) {
+  .portfolio .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portfolio__desc {
+    max-width: 540px;
+  }
+
+  .portfolio__link {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .portfolio {
+    padding: var(--section-padding-sm) 0;
+  }
+
+  .portfolio__desc {
+    align-items: center;
+  }
 }

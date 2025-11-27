@@ -8,7 +8,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1000px;
+  gap: 32px;
+  flex-wrap: wrap;
+  max-width: 960px;
   width: 100%;
 }
 
@@ -36,4 +38,15 @@
   text-decoration: none;
   margin-left: 32px;
   padding: 10px 24px;
+}
+
+@media screen and (max-width: 575px) {
+  .header__btns-wrapper {
+    gap: 32px;
+    flex-direction: column;
+  }
+
+  .header__signup {
+    margin: 0;
+  }
 }

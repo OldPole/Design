@@ -56,3 +56,13 @@
   margin-bottom: 20px;
   color: var(--color-text-light);
 }
+
+@media screen and (max-width: 580px) {
+  .specifications {
+    padding: var(--section-padding-sm) 0;
+  }
+
+  .specifications__accordion-button {
+    display: none;
+  }
+}
