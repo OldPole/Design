@@ -2,12 +2,12 @@
   --color-white: #ffffff;
   --color-black: #000000;
   --color-dark: #161c28;
+  --box-shadow-color: #2f396726;
   --color-primary: #54bd95;
   --color-primary-hover: #459c7a;
   --color-gray: #353535;
-  --color-gray-light: #979797;
+  --color-gray-light: #666666;
   --color-bg: #f9f8fe;
-  --color-text-light: #555555;
 
   --font-family-primary: 'Inter', sans-serif;
   --font-family-secondary: 'Poppins', sans-serif;
@@ -27,7 +27,7 @@
   --section-padding-lg: 110px;
   --section-padding-xl: 120px;
 
-  --box-shadow: 0px 0px 25px 0px #2f396726;
+  --box-shadow: 0px 0px 25px 0px var(--box-shadow-color);
 
   --transition: 0.3s;
 
